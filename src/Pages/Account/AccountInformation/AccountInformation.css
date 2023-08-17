@@ -1,0 +1,9 @@
+.account-info-content p{
+    color:#879b07;
+    font-weight: 600;
+}
+.account-info-content p span{
+    margin-left: 10px;
+    color:#000000cd;
+    font-weight: 400;
+}

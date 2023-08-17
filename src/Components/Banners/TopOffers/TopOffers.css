@@ -1,0 +1,44 @@
+
+
+  .shop-btn {
+    color: #2d2a6e;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .top-offers-content{
+    top: 20%;
+    left: 10%;
+}
+
+
+
+  /* Medium Screen */
+  @media (max-width:768px) {
+    .top-offers-content{
+        top: 10%;
+    }
+    .top-offers-content{
+      left: 5%;
+    }
+  }
+  /* Small Screen */
+  @media (max-width:640px) {
+    .top-offers-content{
+        top: 10%;
+        left: 5%;
+    }
+    .top-offers-content h6{
+      font-size: 14px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    } 
+    .top-offers-content span{
+      font-size: 13px;
+    }
+    .top-offers-content button{
+      font-size: 12px;
+    }
+    
+    
+    
+  }

@@ -1,0 +1,45 @@
+.product-list-style{
+    margin-top: 30px;
+}
+
+.filter-headings{
+    font-size: 13px;
+    font-weight: 300;
+}
+.accoundion-btn{
+    background-color:rgb(236, 238, 244);
+    border-radius: 5px;
+    border: 0 !important;
+}
+.accoundion-btn:hover{
+    background-color: rgb(129, 207, 255) !important;
+  
+}
+.filter-style{
+    position: absolute;
+    top: 11%;
+    width: 95%;
+}
+
+.css-17mg6aq:last-of-type {
+    border-bottom-width: 1px;
+    background-color: rgb(245, 245, 246);
+    border-radius: 10px;
+  }
+  .css-17mg6aq:last-of-type:hover{
+    background-color: rgb(254, 255, 250);
+  }
+  .filter-block{
+    margin: 0 !important;
+  }
+/* media query */
+@media (max-width:640px) {
+    .product-list-style{
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .filter-style{
+        position: absolute;
+        top: 7%;
+    }
+}

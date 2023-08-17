@@ -1,0 +1,71 @@
+
+
+
+.quick-buy-btn{
+    height: fit-content;
+    padding: 6px 10px;
+    margin-left: 10px;
+}
+
+/* cart section */
+.cart-edit-btn{
+    background-color: #91a901;
+    border-radius: 5px;
+    color: #f2f2f2;
+    transition: 0.5s;
+}
+.cart-edit-btn:hover{
+    background-color: #b5ce27; 
+}
+.check-out{
+    font-size: 15px !important;
+    font-weight: 600;
+    width: 100% !important;
+    width: 250px !important;
+}
+.cart-content h5{
+  font-size: 17px;
+  margin-bottom: 10px !important;
+}
+.view-cart{
+    font-size: 15px !important;
+    font-weight: 600;
+    background-color: transparent !important;
+    color: #91a901 !important;
+    border: 1px solid #91a901;
+    width: 200px !important;
+
+}
+.view-cart:hover{
+    font-size: 15px !important;
+    font-weight: 600;
+    background-color: #91a901 !important;
+    color: #ffffff !important;
+    border: 1px solid #91a901;
+}
+.total-amount h5{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.total-amount p{
+    font-weight: 600;
+}
+.prize-style{
+    flex-direction: column ;
+}
+
+.prize{
+    margin-left: 11px;
+}
+.cart-flex-style{
+    display: flex;
+    justify-content: left !important;
+}
+
+@media (max-width:640px) {
+    .cart-page img{
+            height: 120px;
+            width: 120px !important;
+    }
+}

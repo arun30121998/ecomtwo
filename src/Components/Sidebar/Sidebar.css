@@ -1,0 +1,26 @@
+.cart-bag{
+    color: #000000 !important;
+   /* border: 1px solid #91a901; */
+   background-color: #d8e775d3;
+    padding: 10px;
+    font-size: 42px !important;
+    border-radius: 50%;
+}
+.cart-bag:hover{
+    color: #000000 !important;
+ 
+}
+.fav-icon{
+    color: #15337a !important;
+    background-color: #99fcbd64;
+    padding: 10px;
+    font-size: 42px !important;
+    border-radius: 50%;
+}
+.fav-icon:hover{
+    color: #000000 !important;
+
+}
+.rupee{
+    font-size: 17px !important;
+}

@@ -1,0 +1,55 @@
+.total-prize {
+  background-color: rgb(243, 245, 248);
+  padding: 10px 20px;
+  margin-top: 24px !important;
+}
+.discount {
+  color: #0f3968;
+}
+.continue-shopping-btn p {
+  color: #0f3968;
+  animation: move 3s infinite;
+}
+.view-cart-style {
+  background-color: transparent !important;
+  border: 1px solid #91a901;
+  color: #91a901 !important;
+  padding: 13px 0 !important;
+}
+.check-out-btn {
+  padding: 13px 0 !important;
+}
+.currency-style{
+  font-size: 18px;
+}
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* media query */
+@media (max-width: 640px) {
+  .check-out {
+    margin-top: 10px !important;
+  }
+  .total-prize-btn {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .check-out-btn {
+    padding: 8px 0 !important;
+  }
+  .view-cart-style {
+    padding: 8px 0 !important;
+  }
+  .currency-style{
+    font-size: 13px;
+  }
+}

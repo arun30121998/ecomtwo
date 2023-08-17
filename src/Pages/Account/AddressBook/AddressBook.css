@@ -1,0 +1,16 @@
+.add-address-btn {
+  padding: 5px 15px;
+  width: fit-content;
+}
+.address-style {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.address-book-style {
+  background-color:rgb(85, 95, 105);
+  margin-top: 30px;
+  padding: 15px 20px 5px 20px !important;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}

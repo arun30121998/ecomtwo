@@ -1,0 +1,29 @@
+.help-center span {
+  color: #9db902;
+  margin-left: 5px;
+}
+.icon-size {
+  font-size: 18px !important;
+  transition: 0.5s;
+}
+.help-center:hover  .icon-size {
+    color:#2d2c6e !important;
+}
+.help-center:hover span {
+    cursor: pointer;
+    color:#2d2c6e !important;
+}
+.title-design{
+    margin-bottom: 10px ;
+}
+/* about */
+.about-img img{
+    height: 410px !important;
+}
+.about-content h5{
+    background-color: #9db902;
+    padding: 3px 8px;
+    width: fit-content;
+    border-radius: 30px;
+    font-size: 15px;
+}

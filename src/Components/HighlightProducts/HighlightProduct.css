@@ -1,0 +1,21 @@
+    .section-padding{
+        padding: 20px 10px;
+    }
+    .rating-name-size {
+        font-size: 12px !important;
+        margin-top: 1px !important;
+      }
+
+/* media query */
+@media (max-width:640px) {
+    .section-padding{
+        padding: 0px 10px;
+    }
+   
+}
+/* medium screen */
+@media (max-width:768px) {
+    .section-padding{
+        padding: 0px 10px;
+    }
+}

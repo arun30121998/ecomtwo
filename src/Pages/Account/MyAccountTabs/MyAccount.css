@@ -1,0 +1,27 @@
+/* my account */
+.tabs-bg {
+  background-color: #eeeff4;
+}
+
+.tabs-header {
+  width: 100%;
+}
+
+/* media query */
+/* medium screen */
+@media (max-width: 810px) {
+  .body-padding {
+    padding: 0;
+  }
+
+  .tabs-header {
+    width: 100% !important;
+  }
+}
+/* small screen */
+@media (max-width: 640px) {
+  .body-padding {
+    padding: 10px !important;
+  }
+  
+}

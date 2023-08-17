@@ -1,0 +1,23 @@
+.slider-card{
+    height: fit-content !important;
+}
+.product-card-style img{
+    height: 220px;
+}
+.top-products-content{
+
+}
+
+
+/* media quary */
+
+@media (max-width:768px) {
+    
+}
+
+
+@media (max-width:640px) {
+    .product-card-style img{
+        height: 160px;
+    }
+}

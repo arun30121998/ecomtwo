@@ -1,0 +1,119 @@
+/* banner two */
+.add-banner img {
+  height: 60vh;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+.add-banner .addbanner-content {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+.add-banner .addbanner-content h1 {
+  width: 70%;
+  font-size: 30px !important;
+  font-family: cursive, "Satisfy" !important;
+  color: #fefeff;
+  font-weight: 800 !important;
+}
+.add-banner .addbanner-content span {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: cursive, "Satisfy";
+}
+
+
+.add-banner .addbanner-content p {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.btn-color {
+  background: #92aa02;
+}
+
+.offers{
+  background-color: #fbf8f8;
+  padding: 10px;
+  width: fit-content;
+  color: #92aa02;
+  border-radius: 40px;
+}
+.offers p{
+  color: #92aa02 !important;
+  padding-bottom: 0;
+  margin: 0;
+}
+.offers p span{
+  color: #0b0b0b !important;
+  font-size: 15px !important;
+  margin-left: 10px;
+}
+/* media query */
+
+/* medium screen */
+@media (max-width: 768px) {
+  .add-banner .addbanner-content h1 {
+    width: 70%;
+    font-size: 30px !important;
+  }
+
+  .add-banner .addbanner-content span {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: cursive, "Satisfy";
+  }
+  .add-banner .addbanner-content {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+ 
+  .add-banner img {
+    height: 450px !important;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+  .add-banner .addbanner-content p {
+    color: #ffffff;
+    font-size: 15px;
+  }
+}
+/* small screen */
+@media (max-width: 640px) {
+  .add-banner .addbanner-content h1 {
+    width: 70%;
+    font-size: 22px !important;
+  }
+  .offers p span{
+    font-size: 12px !important;
+  }
+
+  .add-banner .addbanner-content span {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: cursive, "Satisfy";
+  }
+  .add-banner .addbanner-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  
+  
+  .add-banner img {
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+  .add-banner .addbanner-content p {
+    color: #ffffff;
+    font-size: 12px;
+  }
+}

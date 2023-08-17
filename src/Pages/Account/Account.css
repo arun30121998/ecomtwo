@@ -1,0 +1,66 @@
+.account-tabs-style{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    width:100%;
+}
+/* chakra css */
+.css-5wl5ud{
+    margin-top: 10px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+    justify-content: left !important;
+ 
+}
+.active{
+    color:rgb(151, 190, 7);
+}
+.account-tabs p span{
+    margin-left: 14px;
+    margin-right: 10px;
+}
+.tab-content{
+    height: 70vh;
+    overflow: scroll;
+    padding-right: 10px;
+    scrollbar-height: 1px;
+}
+/* media quary */
+@media (max-width:768px) {
+    .account-tabs-style{
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: left;
+        width:100%;
+    }
+}
+@media (max-width:640px) {
+    .account-tabs-style{
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: left;
+        width:100%;
+    }
+    .account-tabs p span{
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .css-5wl5ud{
+        margin-top: 10px;
+        border: 1px solid #000;
+        margin-right:5px;
+        padding: 2px 4px;
+        border-radius: 3px;
+    }
+    .account-tabs p{
+        margin: 0;
+    }
+}
+

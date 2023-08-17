@@ -1,0 +1,14 @@
+
+/* footerbg */
+.footer-bg {
+    background-image: url(../../images//footer/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer-content-style {
+    color: #bcbbbb;
+    
+  }
+  .footer-content-titles {
+    color: #fff;
+  }
