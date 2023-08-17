@@ -31,7 +31,7 @@ const ScrollToTop = () => {
 
 const RoutesConfig = () => {
   return (
-    <Router>
+    <Router basename="/">
       <ScrollToTop />
       <Suspense fallback={<SpinnerLoader />}>
         <Routes>
