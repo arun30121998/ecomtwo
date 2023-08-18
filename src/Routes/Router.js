@@ -8,11 +8,11 @@ import {
   BlogDetails,
   RegistrationForm,
   CartPage,
-  HomeMain,
   Products,
   ProductDetails,
   UserLogin,
 } from "../LazyLoading/LazyLoadingComponents";
+import HomeMain from "../Pages/HomePage/HomeMain";
 import SpinnerLoader from "../Components/SmallComponents/Spinner";
 import AccountDetails from "../Pages/Account/Account";
 import TrackingPage from "../Pages/Account/OrderTracking/StepperComponent";
@@ -31,7 +31,7 @@ const ScrollToTop = () => {
 
 const RoutesConfig = () => {
   return (
-    <Router basename="/">
+    <Router >
       <ScrollToTop />
       <Suspense fallback={<SpinnerLoader />}>
         <Routes>
