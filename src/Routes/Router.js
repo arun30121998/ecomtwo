@@ -1,19 +1,18 @@
-import React, { useEffect, Suspense } from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import {
-  AboutUs,
-  ContactUs,
-  Blog,
-  Faq,
-  BlogDetails,
-  RegistrationForm,
-  CartPage,
-  Products,
-  ProductDetails,
-  UserLogin,
-} from "../LazyLoading/LazyLoadingComponents";
+
 import HomeMain from "../Pages/HomePage/HomeMain";
-import SpinnerLoader from "../Components/SmallComponents/Spinner";
+import AboutUs from "../Pages/About-us/AboutUs";
+import ContactUs from "../Pages/Contact-us/ContactUs";
+import Blog from "../Pages/Blogs/Blog";
+import Faq from "../Pages/FAQ/Faq";
+import BlogDetails from "../Pages/Blogs/BlogDetails";
+import { RegistrationForm } from "../LazyLoading/LazyLoadingComponents";
+import ProductDetails from "../Pages/ProductDetails/ProductDetails";
+import UserLogin from "../Pages/Profile/UserLogin";
+import Products from "../Pages/ProductList/ProductsComponent";
+
+import CartPage from "../Pages/Cart/CartPage";
 import AccountDetails from "../Pages/Account/Account";
 import TrackingPage from "../Pages/Account/OrderTracking/StepperComponent";
 import { Category } from "../Pages/Categories/Categories";
@@ -33,7 +32,6 @@ const RoutesConfig = () => {
   return (
     <Router >
       <ScrollToTop />
-      <Suspense fallback={<SpinnerLoader />}>
         <Routes>
           <Route
             path='/'
@@ -125,7 +123,6 @@ const RoutesConfig = () => {
             element={<CartPage />}
           />
         </Routes>
-      </Suspense>
     </Router>
   );
 };
