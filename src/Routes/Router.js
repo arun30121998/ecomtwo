@@ -7,7 +7,6 @@ import ContactUs from "../Pages/Contact-us/ContactUs";
 import Blog from "../Pages/Blogs/Blog";
 import Faq from "../Pages/FAQ/Faq";
 import BlogDetails from "../Pages/Blogs/BlogDetails";
-import { RegistrationForm } from "../LazyLoading/LazyLoadingComponents";
 import ProductDetails from "../Pages/ProductDetails/ProductDetails";
 import UserLogin from "../Pages/Profile/UserLogin";
 import Products from "../Pages/ProductList/ProductsComponent";
@@ -109,10 +108,7 @@ const RoutesConfig = () => {
           />
          
          
-          <Route
-            path='/registration'
-            element={<RegistrationForm />}
-          />
+          
           <Route
             path="/userLogin"
             element = {<UserLogin/>}
