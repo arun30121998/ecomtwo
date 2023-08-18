@@ -1,10 +1,7 @@
 {
   "files": {
     "main.css": "/ecomtwo/static/css/main.aea07775.css",
-    "main.js": "/ecomtwo/static/js/main.b2ffcd2a.js",
-    "static/css/590.093df70b.chunk.css": "/ecomtwo/static/css/590.093df70b.chunk.css",
-    "static/js/590.5c6b886c.chunk.js": "/ecomtwo/static/js/590.5c6b886c.chunk.js",
-    "static/js/383.94c045a4.chunk.js": "/ecomtwo/static/js/383.94c045a4.chunk.js",
+    "main.js": "/ecomtwo/static/js/main.d83bef68.js",
     "static/media/1.jpg": "/ecomtwo/static/media/1.e8516a19efd3d40d260c.jpg",
     "static/media/banner1.jpg": "/ecomtwo/static/media/banner1.ebb85ee75fa7be06ab7d.jpg",
     "static/media/banner2.jpg": "/ecomtwo/static/media/banner2.dd00439e56df387febd3.jpg",
@@ -38,13 +35,10 @@
     "static/media/slick.woff": "/ecomtwo/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ecomtwo/index.html",
     "main.aea07775.css.map": "/ecomtwo/static/css/main.aea07775.css.map",
-    "main.b2ffcd2a.js.map": "/ecomtwo/static/js/main.b2ffcd2a.js.map",
-    "590.093df70b.chunk.css.map": "/ecomtwo/static/css/590.093df70b.chunk.css.map",
-    "590.5c6b886c.chunk.js.map": "/ecomtwo/static/js/590.5c6b886c.chunk.js.map",
-    "383.94c045a4.chunk.js.map": "/ecomtwo/static/js/383.94c045a4.chunk.js.map"
+    "main.d83bef68.js.map": "/ecomtwo/static/js/main.d83bef68.js.map"
   },
   "entrypoints": [
     "static/css/main.aea07775.css",
-    "static/js/main.b2ffcd2a.js"
+    "static/js/main.d83bef68.js"
   ]
 }
